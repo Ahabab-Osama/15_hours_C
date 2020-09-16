@@ -1,15 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void display()
+void morning()
 {
-    printf("I am the genius\n");
+    printf("Good Morning!\n");
+}
+void afternoon()
+{
+    printf("Good Afternoon!\n");
+}
+void night()
+{
+    printf("Good Night!\n");
 }
 
 int main()
 {
-    printf("Start!\n");
-    display();
-    printf("End!\n");
+    morning();
+    afternoon();
+    night();
     return 0;
 }
