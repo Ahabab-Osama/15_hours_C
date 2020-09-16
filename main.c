@@ -18,6 +18,5 @@ int main()
 {
     morning();
     afternoon();
-    night();
     return 0;
 }
